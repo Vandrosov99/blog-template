@@ -90,3 +90,82 @@ nav .container{
 }
 
 /* showcase */
+
+#showcase{
+    height: 94vh;
+    background: url("../img/showcase_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#showcase .container{
+    height: 100%;
+}
+.main__showcase{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.main__showcase img{
+    height: 100px;
+}
+
+.main__text{
+    font-size: 31px;
+    color:#fff;
+    margin:0 200px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.mark{
+    position: absolute;
+    left:0;
+    top:90%;
+    color:#fff;
+    padding:5px 10px;
+}
+.color-blue{
+background:rgb(69, 122, 219);
+}
+.color-red{
+    background:red;
+}
+.color-black{
+    background: black;
+}
+.color-green{
+    background: green;
+}
+.color-purple{
+    background:purple;
+}
+
+.data{
+    position: absolute;
+    right:0;
+    top:90%;
+    color:#fff;
+    padding:5px 10px;
+    font-size: 13px;
+}
+
+.data span{
+    color:rgb(69, 122, 219);
+}
+
+.data span:hover{
+    cursor: pointer;
+}
+.desc{
+    color:rgb(170, 168, 168);
+    padding:5px 10px;
+    font-size: 13px;
+}
